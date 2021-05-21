@@ -21,6 +21,9 @@
   "homepage": "https://github.com/tanayparashar/learn_react#readme",
   "devDependencies": {
     "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.13.4",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
     "@babel/preset-react": "^7.12.13",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
@@ -32,8 +35,10 @@
     "prettier": "^2.3.0"
   },
   "dependencies": {
+    "c": "^1.1.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   },
   "browserslist": [
     "last 2 Chrome versions"
